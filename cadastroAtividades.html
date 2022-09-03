@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        UFC - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas
+      </nav>
+      <nav>
+        <button>
+          <a href="#"> </a>
+          Sair
+        </button>
+      </nav>
+    </header>
+    <main>
+      <nav>
+        <h1>Cadastro de horas complementares</h1>
+      </nav>
+      <section>
+        <form name="activities" accept-charset="utf-8">
+          <label for="name"> Nome </label>
+          <br />
+          <input
+            type="text"
+            name="nome da atividade"
+            placeholder="Nome da sua atividade"
+            required
+          />
+          <br />
+          <label for="number"> Número de horas </label>
+          <br />
+          <input
+            type="number"
+            name="número de horas"
+            placeholder="Horas da sua atividade:"
+            required
+          />
+          <br />
+          <label for="date"> Data </label>
+          <br />
+          <input
+            type="date"
+            name="data da atividade"
+            placeholder="Data em que ocorreu a atividade"
+            required
+          />
+          <br />
+          <label for="email"> E-mail do responsável pela atividade </label>
+          <br />
+          <input
+            type="email"
+            name="email do resposável"
+            placeholder="Horas da sua atividade:"
+            required
+          />
+          <br />
+          <label for="phone"> Telefone do responsável pela atividade </label>
+          <br />
+          <input
+            type="tel"
+            name="telefone do responsável"
+            placeholder="Telefone do responsável pela atividade"
+            required
+          />
+          <br />
+          <input type="submit" value="Cadastrar" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas - UFC Sobral
+      - 2022
+    </footer>
+  </body>
+</html>
