@@ -4,38 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="login.css" />
     <title>Login</title>
   </head>
-  <body>
+  <body style="background-color:#dcdcdc;">
     <header>
       <h1>Login</h1>
       <nav> 
         UFC - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas
       </nav> 
       <button><a href="/index.html">Sair</a></button>
+      <button onclick=""><a href="/tecweb/lab2-novoSigaa/novo-sigaa/loginEnglish.html"> English Version </button>
       <nav>
-        <a href="/controlPanel.html">Usuário</a>
-        <a href="/history.html">Histórico</a>
-        <a href="/curricularComponents.html">
+        <a href="/tecweb/lab2-novoSigaa/novo-sigaa/controlPanel.html">Usuário</a>
+        <a href="/tecweb/lab2-novoSigaa/novo-sigaa/historico.html">Histórico</a>
+        <a href="/tecweb/lab2-novoSigaa/novo-sigaa/cadastroAtividades.html">
           Cadastro de Componentes Curriculares
         </a>
       </nav>
     </header>
-    <main>
+    <main class="loginContainer"> <!-- Estilização inline -->
       <nav> 
-        <h1> 
+        <h1 id="entrar"> 
           Entrar no Sistema
         </h1>
       </nav>
       <section>
-        <form name="login" accept-charset="utf-8"> 
+        <form name="login" accept-charset="utf-8" id="user"> 
             <label for="usermail"> Login </label>
             <br> 
             <input
               type="email"
               name="usermail"
-              placeholder="seu nome"
+              placeholder="seu user"
               required
             />
             <br> 
@@ -44,13 +45,11 @@
             <input
               type="password"
               name="password"
-              placeholder="password"
+              placeholder="sua senha"
               required
             />
             <br> 
-          <input type="submit" value="Login"
-          
-        </li>
+          <input type="submit" value="Login" id="loginSubmit"/>
         </form>
       </section>
     </main>
