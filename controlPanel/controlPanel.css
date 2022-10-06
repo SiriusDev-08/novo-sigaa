@@ -1,0 +1,8 @@
+body {
+  display: block;
+  background-image: url(./background.jpg);
+  color: #111;
+}
+nav {
+  font-family: "Times New Roman", Times, serif;
+}
